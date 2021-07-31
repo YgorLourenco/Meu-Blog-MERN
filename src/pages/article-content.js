@@ -1,0 +1,34 @@
+const articles = [
+    {
+        name: 'aprenda-react',
+        title: 'A maneira mais rapida de aprender React',
+        thumbnail:'/images/blog1.jpg',
+        content: [
+            `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacus neque, sodales non sollicitudin ut, scelerisque sed magna. Etiam faucibus dapibus pulvinar. Vivamus auctor commodo ornare. Aenean condimentum at tortor vel luctus. Fusce non ipsum sit amet risus viverra porttitor pretium a nunc. Cras feugiat nisl eu augue tincidunt rutrum. Duis molestie risus vel tempor posuere. Morbi vitae risus a est aliquam pulvinar. Sed sed pharetra nisl. Curabitur sed lectus varius, tristique orci sit amet, dictum turpis. Phasellus nec augue magna. Nullam sed imperdiet felis. Cras vestibulum sodales porta. Proin pharetra libero vitae iaculis feugiat. Donec odio lectus, efficitur vitae.`,
+            `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacus neque, sodales non sollicitudin ut, scelerisque sed magna. Etiam faucibus dapibus pulvinar. Vivamus auctor commodo ornare. Aenean condimentum at tortor vel luctus. Fusce non ipsum sit amet risus viverra porttitor pretium a nunc. Cras feugiat nisl eu augue tincidunt rutrum. Duis molestie risus vel tempor posuere. Morbi vitae risus a est aliquam pulvinar. Sed sed pharetra nisl. Curabitur sed lectus varius, tristique orci sit amet, dictum turpis. Phasellus nec augue magna. Nullam sed imperdiet felis. Cras vestibulum sodales porta. Proin pharetra libero vitae iaculis feugiat. Donec odio lectus, efficitur vitae.`,
+            `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacus neque, sodales non sollicitudin ut, scelerisque sed magna. Etiam faucibus dapibus pulvinar. Vivamus auctor commodo ornare. Aenean condimentum at tortor vel luctus. Fusce non ipsum sit amet risus viverra porttitor pretium a nunc. Cras feugiat nisl eu augue tincidunt rutrum. Duis molestie risus vel tempor posuere. Morbi vitae risus a est aliquam pulvinar. Sed sed pharetra nisl. Curabitur sed lectus varius, tristique orci sit amet, dictum turpis. Phasellus nec augue magna. Nullam sed imperdiet felis. Cras vestibulum sodales porta. Proin pharetra libero vitae iaculis feugiat. Donec odio lectus, efficitur vitae.`,
+        ]
+    },
+    {
+        name: 'aprenda-node',
+        title: 'Como construir um Server Node em 10 minutos',
+        thumbnail:'/images/blog2.jpg',
+        content: [
+            `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacus neque, sodales non sollicitudin ut, scelerisque sed magna. Etiam faucibus dapibus pulvinar. Vivamus auctor commodo ornare. Aenean condimentum at tortor vel luctus. Fusce non ipsum sit amet risus viverra porttitor pretium a nunc. Cras feugiat nisl eu augue tincidunt rutrum. Duis molestie risus vel tempor posuere. Morbi vitae risus a est aliquam pulvinar. Sed sed pharetra nisl. Curabitur sed lectus varius, tristique orci sit amet, dictum turpis. Phasellus nec augue magna. Nullam sed imperdiet felis. Cras vestibulum sodales porta. Proin pharetra libero vitae iaculis feugiat. Donec odio lectus, efficitur vitae.`,
+            `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacus neque, sodales non sollicitudin ut, scelerisque sed magna. Etiam faucibus dapibus pulvinar. Vivamus auctor commodo ornare. Aenean condimentum at tortor vel luctus. Fusce non ipsum sit amet risus viverra porttitor pretium a nunc. Cras feugiat nisl eu augue tincidunt rutrum. Duis molestie risus vel tempor posuere. Morbi vitae risus a est aliquam pulvinar. Sed sed pharetra nisl. Curabitur sed lectus varius, tristique orci sit amet, dictum turpis. Phasellus nec augue magna. Nullam sed imperdiet felis. Cras vestibulum sodales porta. Proin pharetra libero vitae iaculis feugiat. Donec odio lectus, efficitur vitae.`,
+            `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacus neque, sodales non sollicitudin ut, scelerisque sed magna. Etiam faucibus dapibus pulvinar. Vivamus auctor commodo ornare. Aenean condimentum at tortor vel luctus. Fusce non ipsum sit amet risus viverra porttitor pretium a nunc. Cras feugiat nisl eu augue tincidunt rutrum. Duis molestie risus vel tempor posuere. Morbi vitae risus a est aliquam pulvinar. Sed sed pharetra nisl. Curabitur sed lectus varius, tristique orci sit amet, dictum turpis. Phasellus nec augue magna. Nullam sed imperdiet felis. Cras vestibulum sodales porta. Proin pharetra libero vitae iaculis feugiat. Donec odio lectus, efficitur vitae.`,
+        ]
+    },
+    {
+        name: 'meus-pensamentos-sobre-aprender-react',
+        title: 'Meus pensamentos sobre aprender ReactJS',
+        thumbnail:'/images/blog3.jpg',
+        content: [
+            `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacus neque, sodales non sollicitudin ut, scelerisque sed magna. Etiam faucibus dapibus pulvinar. Vivamus auctor commodo ornare. Aenean condimentum at tortor vel luctus. Fusce non ipsum sit amet risus viverra porttitor pretium a nunc. Cras feugiat nisl eu augue tincidunt rutrum. Duis molestie risus vel tempor posuere. Morbi vitae risus a est aliquam pulvinar. Sed sed pharetra nisl. Curabitur sed lectus varius, tristique orci sit amet, dictum turpis. Phasellus nec augue magna. Nullam sed imperdiet felis. Cras vestibulum sodales porta. Proin pharetra libero vitae iaculis feugiat. Donec odio lectus, efficitur vitae.`,
+            `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacus neque, sodales non sollicitudin ut, scelerisque sed magna. Etiam faucibus dapibus pulvinar. Vivamus auctor commodo ornare. Aenean condimentum at tortor vel luctus. Fusce non ipsum sit amet risus viverra porttitor pretium a nunc. Cras feugiat nisl eu augue tincidunt rutrum. Duis molestie risus vel tempor posuere. Morbi vitae risus a est aliquam pulvinar. Sed sed pharetra nisl. Curabitur sed lectus varius, tristique orci sit amet, dictum turpis. Phasellus nec augue magna. Nullam sed imperdiet felis. Cras vestibulum sodales porta. Proin pharetra libero vitae iaculis feugiat. Donec odio lectus, efficitur vitae.`,
+            `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacus neque, sodales non sollicitudin ut, scelerisque sed magna. Etiam faucibus dapibus pulvinar. Vivamus auctor commodo ornare. Aenean condimentum at tortor vel luctus. Fusce non ipsum sit amet risus viverra porttitor pretium a nunc. Cras feugiat nisl eu augue tincidunt rutrum. Duis molestie risus vel tempor posuere. Morbi vitae risus a est aliquam pulvinar. Sed sed pharetra nisl. Curabitur sed lectus varius, tristique orci sit amet, dictum turpis. Phasellus nec augue magna. Nullam sed imperdiet felis. Cras vestibulum sodales porta. Proin pharetra libero vitae iaculis feugiat. Donec odio lectus, efficitur vitae.`,
+        ]
+    },
+]
+
+export default articles
